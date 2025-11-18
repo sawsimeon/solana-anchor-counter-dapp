@@ -38,14 +38,30 @@ Before you begin, ensure you have the necessary tools installed for Solana and A
 ## Test
 
 You can validate the smart contract's logic locally using the provided TypeScript tests in the `tests/` directory. This runs the contract in a local validator environment.
-
-`anchor test`
+```bash
+anchor test
+```
 
 ## Deployment
 
 The smart contract must be deployed to a Solana cluster (like Devnet for testing) to be used.
 
-1. Set your Solana cluster to Devnet: `solana config set --url devnet`
-2. Ensure your wallet has SOL (for gas fees). Airdrop test SOL on Devnet: `solana airdrop 2`
-3. Deploy the program. This command compiles the code again and deploys the optimized program binary to the configured network: `anchor deploy`
+1. Set your Solana cluster to Devnet: 
+
+```bash
+solana config set --url devnet
+```
+
+
+2. Ensure your wallet has SOL (for gas fees). Airdrop test SOL on Devnet: 
+
+```bash
+`solana airdrop 2`
+```
+
+3. Deploy the program. This command compiles the code again and deploys the optimized program binary to the configured network:
+
+```bash
+`anchor deploy`
+```
 
