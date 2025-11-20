@@ -56,12 +56,12 @@ solana config set --url devnet
 2. Ensure your wallet has SOL (for gas fees). Airdrop test SOL on Devnet: 
 
 ```bash
-`solana airdrop 2`
+solana airdrop 2
 ```
 
 3. Deploy the program. This command compiles the code again and deploys the optimized program binary to the configured network:
 
 ```bash
-`anchor deploy`
+anchor deploy
 ```
 
