@@ -4,7 +4,7 @@ A simple Solana smart contract using Rust and Anchor to manage a counter on the 
 
 This project is a hands-on example of a Solana-based project: a simple Counter Program (smart contract) built with Rust and the Anchor framework. The program allows initializing a counter and incrementing or decrementing its value on-chain.
 
-It serves as a basic template for shipping a Solana project: you can build, test locally, and deploy the smart contract to various networks (devnet/mainnet).
+It serves as a basic template for shipping a Solana project: you can build, test locally, and deploy the smart contract to various networks (devnet or mainnet).
 
 ## Setup
 
